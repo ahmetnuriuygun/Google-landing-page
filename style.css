@@ -44,7 +44,7 @@ nav .right button{
     border: none;
     outline: none;
     width: 300px;
-    font-size: 20px;
+    font-size: 16px;
     
 }
 #search{
@@ -52,11 +52,13 @@ nav .right button{
     width: 380px;
     border-radius: 20px;
     height: 40px;
-    margin-left: 500px;
     display: flex;
-    justify-content: first baseline;
+    justify-content: center;
     padding:5px 20px;
-    margin-top: 20px;
+    margin: 28px auto;
+    align-items: center;
+    
+    
     
 }
 .img1,.img2{
@@ -68,14 +70,7 @@ nav .right button{
 }
 
 main{
-    position: absolute;
-    display: flex;
-    justify-content: content;
-    display: inline-block;
     text-align: center;
-    
-    width: 100%;
-    height: 80vh;
     margin-top: 150px;
 }
 button{
